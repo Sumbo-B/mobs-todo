@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to bottom right, red, yellow);
+  height: 100vh;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+h2 {
+  text-align: center;
+  color: #f9f9f9;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background: #ff4a55;
+}
+
+li button:hover {
+  background: #c0353a;
+}
+
+.form {
+  width: 300px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#task {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
